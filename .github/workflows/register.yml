@@ -27,9 +27,7 @@ on:
 jobs:
   update:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-      pull-requests: write
+    permissions: write-all
     strategy:
       matrix:
         python-version: [3.8]
