@@ -24,6 +24,8 @@ on:
         required: true
         type: string
 
+permissions:
+  workflows: write
 # permissions: write-all
   # contents: write
   # pull-requests: write
